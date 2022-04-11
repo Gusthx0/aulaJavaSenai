@@ -4,7 +4,7 @@ public class pessoa {
 	int numfigurinha;
 	
 	void receber (int numfigurinha) {
-		this.numfigurinha = numfigurinha;
+		this.numfigurinha += numfigurinha;
 		
 	}
 	
