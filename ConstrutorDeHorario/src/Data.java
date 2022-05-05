@@ -11,6 +11,8 @@ public class Data {
 	private int segundo = -1;
 	
 	// Construtor que recebe dia, mes e ano
+	
+	
 	public Data(int dia, int mes, int ano) {
 		this.dia = dia;
 		this.mes = mes;
@@ -18,8 +20,12 @@ public class Data {
 	}
 	
 	// Construtor completo, que recebe informações de data e horário
+	
 	public Data(int dia, int mes, int ano, int hora, int minuto, int segundo) {
+		
 		// Chama o outro construtor da classe
+		
+		
 		this (dia, mes, ano);
 		
 		this.hora = hora;
@@ -28,14 +34,19 @@ public class Data {
 	}
 	
 	// Imprime a data/hora formatada (de acordo com o formato especificado)
+	
 	public void imprimir(int formato) {
+		
 		// Monta a string de impressão de data
+		
 		String data = dia + "/" + mes + "/" + ano;
 		
 		if (hora == -1) {
+			
 			// Se hora for -1, significa que os dados de horário não foram passado no construtor.
 			// Então exibe só a data
 			System.out.println(data);
+			
 		} else {
 			// Monta parte da string da horário (deixa a hora de fora por enquanto)
 			String horario = ":" + minuto + ":" + segundo;
