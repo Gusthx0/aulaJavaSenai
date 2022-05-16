@@ -127,7 +127,7 @@ public class main {
 //		}	
 //		
 //		
-		int x1 = 3;
+		int x1 = 3; //matrix: "consigo guarda varios elementos em uma variavel"
 		int y1 = 4;
 		int z1 = 5;
 		
@@ -152,10 +152,25 @@ public class main {
 			}
 		}
 		
+		int[] ArrayInt = new int[5];
+		String[] ArrayString = new String[4];
+		double[] ArrayDouble = new double[3];
 		
+		ArrayInt[3] = 4;
 		
+		int [] numero = new int[6];
+		Scanner teclado = new Scanner (System.in);
 		
+		for (int aux2 = 0;aux2 < numero.length;aux2++) {
+			System.out.println("Digite um numero qualauer");
+			numero[aux2] = teclado.nextInt();
+		}
+		for (int aux2 = 0;aux2 < numero.length; aux2++) {
+			System.out.println("indice" + aux2 + "=" + numero[aux2]);
+		}
 		
+	}
+
 		
 		
 		
