@@ -116,18 +116,94 @@ public class main {
 //		for(int x=0; x <11; x++) {
 //			System.out.println("2 x " + x + " = " + x*2 );
 //		}	
-Scanner entrada = new Scanner(System.in);
+//Scanner entrada = new Scanner(System.in);
+//		
+//		
+//		System.out.println("Digite o número desejado");
+//		int num = entrada.nextInt();
+//		
+//		for(int x=0; x <11; x++) {
+//			System.out.println(num + "x " + x + " = " + x*num );
+//		}	
+//		
+//		
+		int x1 = 3;
+		int y1 = 4;
+		int z1 = 5;
+		
+		System.out.println(x1);
+		System.out.println(y1);
+		System.out.println(z1);
+		System.out.println();
+		
+		double x[] = {3, 5, 3, 5};
+		
+		for (int aux = 0;aux < x.length;aux++) {
+			System.out.println("valor do indice " + aux + "="+ x[aux]);
+		}
+		
+		String nome [] = { "julia", "Chris", "renan"};
 		
 		
-		System.out.println("Digite o número desejado");
-		int num = entrada.nextInt();
+		for (int aux1 = 0;aux1 < nome.length;aux1 ++) {
+			System.out.println(nome[aux1]);
+			if (nome[aux1] == "julia") {
+				System.out.println("o indice da juliakkjjk é = " + aux1);
+			}
+		}
 		
-		for(int x=0; x <11; x++) {
-			System.out.println(num + "x " + x + " = " + x*num );
-		}	
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
 		
 		
 	}
 }	
 		
+
 		
