@@ -1,6 +1,6 @@
 import java.util.Scanner;
-public class main {
-
+public class mainy {
+	
 	public static void main(String[] args) {
 		
 //		int x = 100;
@@ -127,98 +127,78 @@ public class main {
 //		}	
 //		
 //		
-		int x1 = 3; //matrix: "consigo guarda varios elementos em uma variavel"
-		int y1 = 4;
-		int z1 = 5;
+//		int x1 = 3; //matriz/array: "consigo guarda varios elementos(do mesmo tipo)em uma variavel"
+//		int y1 = 4;
+//		int z1 = 5;
+//		
+//		System.out.println(x1);
+//		System.out.println(y1);
+//		System.out.println(z1);
+//		System.out.println();
+//		
+//		double x[] = {3, 5, 3, 5};
+//		
+//		for (int aux = 0;aux < x.length;aux++) { //o length serve  
+//			System.out.println("valor do indice " + aux + "="+ x[aux]);
+//		}
+//		
+//		String nome [] = { "julia", "Chris", "renan"};
+//		
+//		
+//		for (int aux1 = 0;aux1 < nome.length;aux1 ++) {
+//			System.out.println(nome[aux1]);
+//			if (nome[aux1] == "julia") {
+//				System.out.println("o indice da julia é = " + aux1);
+//			}
+//		}
+//		
+//		int[] ArrayInt = new int[5];
+//		String[] ArrayString = new String[4];
+//		double[] ArrayDouble = new double[3];
+//		
+//		ArrayInt[3] = 4;
+//		
+//		int [] numero = new int[6];
+//		Scanner teclado = new Scanner (System.in);
+//		
+//		for (int aux2 = 0;aux2 < numero.length;aux2++) {
+//			System.out.println("Digite um numero qualauer");
+//			numero[aux2] = teclado.nextInt();
+//		}
+//		for (int aux2 = 0;aux2 < numero.length; aux2++) {
+//			System.out.println("indice" + aux2 + "=" + numero[aux2]);
+	
+//		
+	int[] arrayQualquer = new int[3];		
+	Object[] arrayObject = new Object[6];
+		arrayObject[0]= 12;
+	    arrayObject[1]= "Rafael";
+		arrayObject[2]= 13.8;
+		arrayObject[3]= true;
+		arrayObject[5]= arrayQualquer;
 		
-		System.out.println(x1);
-		System.out.println(y1);
-		System.out.println(z1);
-		System.out.println();
-		
-		double x[] = {3, 5, 3, 5};
-		
-		for (int aux = 0;aux < x.length;aux++) {
-			System.out.println("valor do indice " + aux + "="+ x[aux]);
-		}
-		
-		String nome [] = { "julia", "Chris", "renan"};
+	for (int aux2 = 0; aux2 < arrayObject.length; aux2++) 					System.out.println("indice" + aux2 + "=" + arrayObject[aux2]);
 		
 		
-		for (int aux1 = 0;aux1 < nome.length;aux1 ++) {
-			System.out.println(nome[aux1]);
-			if (nome[aux1] == "julia") {
-				System.out.println("o indice da juliakkjjk é = " + aux1);
+		int[][] arrayBidirecional = new int[4][3];
+		
+		arrayBidirecional[0][0]=8;
+		arrayBidirecional[2][1]=8;
+		
+		for (int coluna = 0;coluna < arrayBidirecional[0].length; coluna++) {
+			for (int linha = 0; linha < arrayBidirecional[0].length; coluna++) {
+				System.out.print("indice [" + linha + "][" + coluna +"] ="+ arrayBidirecional [linha][coluna] + " ");
 			}
+			System.out.println();
 		}
 		
-		int[] ArrayInt = new int[5];
-		String[] ArrayString = new String[4];
-		double[] ArrayDouble = new double[3];
-		
-		ArrayInt[3] = 4;
-		
-		int [] numero = new int[6];
-		Scanner teclado = new Scanner (System.in);
-		
-		for (int aux2 = 0;aux2 < numero.length;aux2++) {
-			System.out.println("Digite um numero qualauer");
-			numero[aux2] = teclado.nextInt();
-		}
-		for (int aux2 = 0;aux2 < numero.length; aux2++) {
-			System.out.println("indice" + aux2 + "=" + numero[aux2]);
-		}
-		
-	}
-
 		
 		
 		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-	}
+	}	
+	
 }	
 		
+
 
 		
