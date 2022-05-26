@@ -5,11 +5,11 @@ public class Main {
 
 	public static void main(String[] args) {
 ;
-		List lista = new ArrayList();
+//		List lista = new ArrayList();
 
-		lista.add("aaa");
-		lista.add(12);
-		lista.add(true);	
+//		lista.add("aaa");
+//		lista.add(12);
+//		lista.add(true);	
 
 //		for (int x=0; x< lista.size(); x++) {
 //			System.out.println(lista.get(x));
