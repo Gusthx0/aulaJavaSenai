@@ -45,7 +45,9 @@ public class main {
 			System.out.println("os nomes são diferentes");
 		}
 		if(cliente1.equals(cliente2));{
-			System.out.println("os objetos são iguais");} 
+		
+			System.out.println("os objetos são iguais");}
+	
 		else{
 			System.out.println("os objetos são diferentes");
 		}
