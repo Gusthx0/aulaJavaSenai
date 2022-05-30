@@ -1,4 +1,3 @@
-
 public class Mouse {
 
 	private String funciona;
@@ -7,7 +6,7 @@ public class Mouse {
 	
 	
 	
-	public Mouse(boolean funciona, int qtdBotoes, String tamanho) {
+	public Mouse(String funciona, String qtdBotoes, String tamanho) {
 		super();
 		this.funciona = funciona;
 		this.qtdBotoes = qtdBotoes;
@@ -15,13 +14,14 @@ public class Mouse {
 	}
 //----------------------------------------------------------------------
 	
-	public boolean isFunciona() {
+	public String isFunciona() {
 		return funciona;
 	}
 	public void setFunciona(String funciona) {
+		
 		this.funciona = funciona;
 	}
-	public int getQtdBotoes() {
+	public String getQtdBotoes() {
 		return qtdBotoes;
 	}
 	public void setQtdBotoes(String qtdBotoes) {
@@ -51,6 +51,7 @@ public class Mouse {
 		String[] arrayAuxiliar4 = arrayAuxiliar1[2].split("=");
 		this.tamanho = arrayAuxiliar4[1].trim();
 	}
+	
 	
 	
 }
