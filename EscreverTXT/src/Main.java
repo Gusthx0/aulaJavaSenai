@@ -11,9 +11,9 @@ public class Main {
 		
 //		try(BufferedWriter escrever = new BufferedWriter (new FileWriter("Entrada.TXT"))){
 
-		Mouse mouse0 = new Mouse(true,2,"m�dio");
-		Mouse mouse1 = new Mouse(false,0,"pequeno");
-		Mouse mouse2 = new Mouse(true,6,"grande");
+		Mouse mouse0 = new Mouse("true","2","médio");
+		Mouse mouse1 = new Mouse("true","2","médio");
+		Mouse mouse2 = new Mouse("true","2","médio");
 		
 		List<Mouse> listademouses = new ArrayList<Mouse>();
 		
@@ -30,10 +30,12 @@ public class Main {
 		 
 		for(Mouse mouse : listademouses)
 			
+			
 			escrever.write (mouse.toString());
 		
 		}
 			
+		
 		}
 	}
 
