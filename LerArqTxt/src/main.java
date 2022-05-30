@@ -14,6 +14,7 @@ public class main {
 			while ((line = reader.readLine())!= null) {
 				string += line + "\n";
 				
+				
 			}
 			System.out.println(string);
 		}
