@@ -1,4 +1,4 @@
-public class Endereço {
+public class Endereco {
 
 	private String bairro;
 	 private String rua; 
@@ -7,10 +7,7 @@ public class Endereço {
 	
 	 
 	 
-	@Override
-	public String toString() {
-		return "Endereço [bairro=" + bairro + ", rua=" + rua + ", numero=" + numero + "]";
-	}
+	
 	public String getBairro() {
 		return bairro;
 	}
@@ -30,5 +27,5 @@ public class Endereço {
 		this.numero = numero;
 	}
 	 
-	 
+	
 }
