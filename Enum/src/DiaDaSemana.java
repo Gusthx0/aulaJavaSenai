@@ -1,5 +1,5 @@
 
-public enum DiaDaSemana {
+public enum DiaDaSemana { //aqui nos criamos um enum,que de forma rude é uma lista de objetos
 	DOMINGO(1),
 	SEGUNDA(2),
 	TERCA(3),
@@ -8,7 +8,7 @@ public enum DiaDaSemana {
 	SEXTA(6),
 	SABADO(7);
 	
-	public int getNum() {
+	public int getNum() { // associando os numeros a palavra
 		return num;
 	}
 
