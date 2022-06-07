@@ -1,5 +1,6 @@
 
-public enum DiaDaSemana { //aqui nos criamos um enum,que de forma rude é uma lista de objetos
+public enum DiaDaSemana { //aqui nos criamos um enum,que de forma rude é uma lista de constantes,como no exemplo abaixo onde usamos dias da semana que são
+//sempre os mesmos tipos, poderíamos também colocar outro exemplos de acordo com a aplicação
 	DOMINGO(1),
 	SEGUNDA(2),
 	TERCA(3),
@@ -8,7 +9,7 @@ public enum DiaDaSemana { //aqui nos criamos um enum,que de forma rude é uma li
 	SEXTA(6),
 	SABADO(7);
 	
-	public int getNum() { // associando os numeros a palavra
+	public int getNum() { // associando os as constante aos números ao lado delas
 		return num;
 	}
 
