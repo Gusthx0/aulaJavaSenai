@@ -1,4 +1,4 @@
-
+//aqui aprendemos como chamar o enum dentro da classe,como chamar de um enum(fora da classe),como defininir e atribuir valor a ele,de forma direta como o primeiro exemplo e colocando o "valor" dele dentro da variável,ou seja,de forma indireta
 public class Main {
 
 	//public static final double PI = 3.14;
