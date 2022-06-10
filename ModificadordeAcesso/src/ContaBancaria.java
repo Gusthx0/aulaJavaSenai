@@ -11,8 +11,8 @@ public class ContaBancaria {
 
 	
 	public ContaBancaria(boolean ativo, double saldo) {
-		super();
-		this.ativo = ativo;
+		super();			//serve para chamar o construtor da super classe
+		this.ativo = ativo;		//esse daqui é para acessar exatamente desse modo com o ponto
 		this.saldo = saldo;
 	}
 
