@@ -20,3 +20,4 @@ public enum DiaDaSemana { //aqui nos criamos um enum,que de forma rude é uma li
 	}
 }
 
+a
