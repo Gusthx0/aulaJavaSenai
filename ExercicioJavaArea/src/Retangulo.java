@@ -6,7 +6,7 @@ public class Retangulo implements AreaCalculavel {
 	
 	@Override
 	public void calcularArea() {
-		System.out.println("A área do quadrado é " + alt * lar);
+		System.out.println("A Ã¡rea do quadrado Ã© " + alt * lar); //aqui usamos o metodo implemnetado para personalizar e realizar o calculo de acordo a forma
 	}
 
 }
