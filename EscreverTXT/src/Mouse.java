@@ -9,7 +9,7 @@ public class Mouse {
 	public Mouse(String funciona, String qtdBotoes, String tamanho) {
 		super();
 		this.funciona = funciona;
-		this.qtdBotoes = qtdBotoes;
+		this.qtdBotoes = qtdBotoes;  
 		this.tamanho = tamanho;
 	}
 //----------------------------------------------------------------------
@@ -42,7 +42,7 @@ public class Mouse {
 	public Mouse (String texto) {
 		String[] arrayAuxiliar1 = texto.split(",");
 		
-		String[] arrayAuxiliar2 = arrayAuxiliar1[0].split("=");
+		String[] arrayAuxiliar2 = arrayAuxiliar1[0].split("="); //O split divide uma String em uma lista , coloca em um array e retorna o array.
 		this.funciona = arrayAuxiliar1[1].trim();
 		
 		String[] arrayAuxiliar3 = arrayAuxiliar1[1].split("=");
