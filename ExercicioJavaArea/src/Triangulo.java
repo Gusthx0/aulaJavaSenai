@@ -6,7 +6,7 @@ public class Triangulo implements AreaCalculavel{
 	
 	@Override
 	public void calcularArea() {
-		System.out.println("A área do quadrado é " + h * a / 2);
+		System.out.println("A Ã¡rea do quadrado Ã© " + h * a / 2);  //aqui usamos o metodo implemnetado para personalizar e realizar o calculo de acordo a forma
 	}
 
 	
