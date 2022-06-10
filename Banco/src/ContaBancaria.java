@@ -23,9 +23,10 @@ public abstract class ContaBancaria {
 
 	}
 	
-	//� uma classe abstrata ou interface
+	//a classa abstrata é aquela que não pode ter um objeto instanciado apartir dela e é uma classe extremamente generica
+	//é uma classe abstrata ou interface
 	//interfaces somente ass. metodos
-	//mod de acss protecd para as classe que extender dela
+	//visualização protecd para a classe que extender dela
 	
 	
 	
