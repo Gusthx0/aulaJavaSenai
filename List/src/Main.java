@@ -123,7 +123,7 @@ public class Exemplo {
 
 
 
-
+//aplicações de estudos pessoais,ignorar
 
 public class Declaracao_Array {
     public static void main(String[] args) {
