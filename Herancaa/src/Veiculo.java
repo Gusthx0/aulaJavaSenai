@@ -2,7 +2,7 @@
 public class Veiculo {
 
 	private String nome;
-	protected String marca;
+	protected String marca;  //classe pai que vai dar a quem ext6ende dela metodos e atributos embutidos que teram que ser declaradops assim que for instanciado um objetodo tipo,tambem fizemos getters e stters
 	protected String modelo;
 	protected int ano;
 	
