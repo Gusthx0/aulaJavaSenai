@@ -1,12 +1,12 @@
 
-public abstract class Item { //classe abstrata,é um tipo de "modelo"(de metodos) que as classe que herdaram dela devem seguir
+public abstract class Item { //classe abstrata,Ã© um tipo de "modelo"(de metodos) que as classe que herdaram dela devem seguir
 	//obriga o programador a seguir o metodo pegar
 	
 	private int posicaoX = 1;
 	private int posicaoY = 1;
 	
 	public abstract void pegar();  
-	//classe abstrata só tem a assinatura (;)
+	//classe abstrata sÃ³ tem a assinatura (;)
 	//se fosse implementar, teriam as chaves ({})
 	
 	
@@ -29,4 +29,5 @@ public abstract class Item { //classe abstrata,é um tipo de "modelo"(de metodos)
 	}
 	
 
+	
 }
