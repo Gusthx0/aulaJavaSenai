@@ -7,11 +7,11 @@ public class Aplicacao {
 		Scanner valor = new Scanner(System.in);
 		Matematica matematica = new Matematica();
 		
-		
-		System.out.println("¡rea dos polÌgonos");
-		System.out.println("Digite a altura do polÌgono");
+		//aqui criamos variveis  que receberam o valor e acessamos os metodos de acordo com o que era necessario,ou sej segundo a forma
+		System.out.println("√Årea dos pol√≠gonos");
+		System.out.println("Digite a altura do pol√≠gono");
 		int x = valor.nextInt();
-		System.out.println("Digite a largura do polÌgono");
+		System.out.println("Digite a largura do pol√≠gono");
 		int y = valor.nextInt();
 		
 		int areaQ = matematica.area(x,y);
@@ -21,9 +21,9 @@ public class Aplicacao {
 		int areaR = matematica.area(x,y);
 		
 		System.out.println("");
-		System.out.println("A ·rea do quadrado È: " + areaQ);
-		System.out.println("A ·rea do tri‚ngulo È: " + areaT);
-		System.out.println("A ·rea do ret‚ngulo È: " + areaR);
+		System.out.println("A √°rea do quadrado √©: " + areaQ);
+		System.out.println("A √°rea do tri√¢ngulo √©: " + areaT);
+		System.out.println("A √°rea do ret√¢ngulo √©: " + areaR);
 	}
 
 }
