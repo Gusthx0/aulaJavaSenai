@@ -2,13 +2,13 @@
 public class Aplicacao {
 
 	public static void main(String[] args) {
-		
-		// Item item = new Item();  //n„o pode criar uma inst‚ncia de uma classe abtrata
+		//esta instanciando objetos e usando seus metodo(chamando os metodos)
+		// Item item = new Item();  //n√£o pode criar uma inst√¢ncia de uma classe abtrata
 	
-		Item item = new Cogumelo();  //criou a vari·vel
+		Item item = new Cogumelo();  //criou a vari√°vel
 		item.pegar();
 		
-		item = new Moeda();      //vari·vel j· criada, n„o precisa repetir o nome da classe (Item)
+		item = new Moeda();      //vari√°vel j√° criada, n√£o precisa repetir o nome da classe (Item)
 		item.pegar();
 		
 		item = new Diamante();
