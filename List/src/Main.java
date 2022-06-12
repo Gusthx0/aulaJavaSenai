@@ -43,22 +43,21 @@ public class Main {
 //			System.out.println("Sua lista está vazia");
 //		}
 		
-		Conta conta1 = new Conta("Agua", 60.00);
+		Conta conta1 = new Conta("Agua", 60.00);instanciando obj do tipo conta qua servirao como dados para a lista
 		Conta conta2 = new Conta("Luz", 160.00);
 		
-		List<Conta> listaDeContas = new ArrayList<Conta>(); 
-		
-		listaDeContas.add(conta1);
+		List<Conta> listaDeContas = new ArrayList<Conta>();  //criando a lista
+		listaDeContas.add(conta1);  //adicionando os objetos 
 		listaDeContas.add(conta2);
 		
-		for(Conta conta : listaDeContas) {
+		for(Conta conta : listaDeContas) { // fazendo o enhahenced fo,que e um for aprimorado onde  para cada objeto do tipo tal presente na determinada lista faca o seguinte codigo
 			System.out.println(conta);
 		}
 	}
 
 }
 
-
+//estudos por fora,favor ignorar
 
 import java.util.ArrayList;
 import java.util.Iterator;
