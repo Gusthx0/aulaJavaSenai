@@ -4,7 +4,7 @@ public class Endereco {
 	 private String rua; 
 	 private int numero;
 	 
-	
+	cria atributos e acessa eles pelos getters e setters
 	 
 	 
 	
