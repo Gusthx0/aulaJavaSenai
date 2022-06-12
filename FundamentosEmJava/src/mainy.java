@@ -3,7 +3,7 @@ public class mainy {
 	
 	public static void main(String[] args) {
 		
-//		int x = 100;
+//		int x = 100;                  //declarando o valçor de uma variavel
 //		double y = 200.3;
 //
 //		int a = 0;
@@ -12,8 +12,8 @@ public class mainy {
 //		short z = 10000; 
 //		System.out.println(z);
 //		
-//		a = (int)y; //Casting: o a n�o consegue receber y por ser menor do que as informa��es de y 
-//		b = x; // b recebe x por ter espa�o sobrando 
+//		a = (int)y; //Casting: o a não consegue receber y por ser menor do que as informações de y 
+//		b = x; // b recebe x por ter espaço sobrando 
 //		
 //		System.out.println(x);
 //		System.out.println(y);
@@ -23,8 +23,8 @@ public class mainy {
 //		
 //		int idadePessoa = 68;
 //		
-//		if(idadePessoa < 18) {
-//			System.out.println("Voce n�o pode beber");
+//		if(idadePessoa < 18) {                      //if representa a mesma função SE,que é uma verificação e uma forma de manipula o codigo para um programa funcionar de forma mais adequada,exemplo,SE o user digita uma palavra que não seja especificamente a que o programa exige eue uso else para fazer aparecer,erro faça novamente
+//			System.out.println("Voce não pode beber");
 //		}
 //		
 //		else if (idadePessoa < 60) {
@@ -32,13 +32,13 @@ public class mainy {
 //			
 //		}
 //		else {
-//			System.out.println("quanto � sua aposentadoria ?");
+//			System.out.println("quanto é sua aposentadoria ?");
 //		}
-//		System.out.println("Voc� tem " + idadePessoa + " anos ");
+//		System.out.println("Você tem " + idadePessoa + " anos ");
 //
 //		int num = 8;
 //		
-//		switch (num) {
+//		switch (num) {        //aqui é o equivalente ao escolha caso do visualg,ou seja eu dou uma gama de opções que o usuario pode escolher,pode servir para um menu,mas se eu não me engano isso não seria o ideal para o programa
 //			case 1:
 //				System.out.println("Domingo");
 //				break;
@@ -46,7 +46,7 @@ public class mainy {
 //				System.out.println("Segunda-Feira");
 //				break;
 //			case 3:
-//				System.out.println("Ter�a-Feira");
+//				System.out.println("Terça-Feira");
 //				break;
 //			case 4:
 //				System.out.println("Quarta-Feira");
@@ -58,23 +58,23 @@ public class mainy {
 //				System.out.println("Sexta-Feira");
 //				break;
 //			case 7:
-//				System.out.println("S�bado");
+//				System.out.println("Sábado");
 //				break;
 //			default:
-//				System.out.println("esse n�mero n�o condiz com um dia da semana");
+//				System.out.println("esse número não condiz com um dia da semana");
 //			
 //		}
 //		
-//		char caractere = 'c';
+//		char caractere = 'c';  //o char que é apenas um caractere e usa só o ''
 //
 //		switch (caractere) {
 //		case 'a':
-//			System.out.println("Sua letra � a");
+//			System.out.println("Sua letra é a");
 //			break;
 //		case 'b':
-//			System.out.println("Sua letra� b");
+//			System.out.println("Sua letraé b");
 //			break;
-//		default:
+//		default:  //se não for nenhum dos casos
 //			System.out.println("Valor invalido");
 //	}
 //		
@@ -85,7 +85,7 @@ public class mainy {
 //		System.out.println("Pode prosseguir");
 //		break;
 //	case "amarelo":
-//		System.out.println("Aten��o");
+//		System.out.println("Atenção");
 //		break;
 //	case "vermelho":
 //		System.out.println("Pareeeeeee");
@@ -95,9 +95,9 @@ public class mainy {
 //	
 //	}	
 //
-//	int a=0;
+//	int a=0; //declara a variavel a e depois usamos como uma base para o nosso "faça"
 //	
-//	while(a<10) //testa primeiro e depois executa
+//	while(a<10) //testa primeiro e depois executa //enquanto a for menor que 10,faça,linha de codigos
 //	{
 //		a =a+1;
 //		System.out.println(a); 
@@ -109,21 +109,21 @@ public class mainy {
 //		 System.out.println(a);
 //		 a=a+1;
 //	 }while (a<10);
-//	for(int b=0 ; b<10; b++) {
+//	for(int b=0 ; b<10; b++) { //for é o equivalente ao 'para',ou seja vai fazer o que esta sendo pedido ate que  seja falso
 //		System.out.println(b);
 //	}
 //		
 //		for(int x=0; x <11; x++) {
 //			System.out.println("2 x " + x + " = " + x*2 );
 //		}	
-//Scanner entrada = new Scanner(System.in);
+//Scanner entrada = new Scanner(System.in);  //para o usuario digitar
 //		
 //		
-//		System.out.println("Digite o n�mero desejado");
-//		int num = entrada.nextInt();
+//		System.out.println("Digite o número desejado");
+//		int num = entrada.nextInt();//nextint para inteiro
 //		
 //		for(int x=0; x <11; x++) {
-//			System.out.println(num + "x " + x + " = " + x*num );
+//			System.out.println(num + "x " + x + " = " + x*num );//aqui seria um calculo usando for
 //		}	
 //		
 //		
@@ -138,7 +138,7 @@ public class mainy {
 //		
 //		double x[] = {3, 5, 3, 5};
 //		
-//		for (int aux = 0;aux < x.length;aux++) { //o length serve  
+//		for (int aux = 0;aux < x.length;aux++) { //o length serve para ver o tamanho da matriz e de certa maneira ter um controle sobre ele,de forma rude 
 //			System.out.println("valor do indice " + aux + "="+ x[aux]);
 //		}
 //		
@@ -148,17 +148,17 @@ public class mainy {
 //		for (int aux1 = 0;aux1 < nome.length;aux1 ++) {
 //			System.out.println(nome[aux1]);
 //			if (nome[aux1] == "julia") {
-//				System.out.println("o indice da julia � = " + aux1);
+//				System.out.println("o indice da julia é = " + aux1); //saber em qual indicie(numero de "chamada") esta Julia
 //			}
 //		}
 //		
-//		int[] ArrayInt = new int[5];
+//		int[] ArrayInt = new int[5]; //array de inteiro e de outros tipós especificados
 //		String[] ArrayString = new String[4];
 //		double[] ArrayDouble = new double[3];
 //		
-//		ArrayInt[3] = 4;
+//		ArrayInt[3] = 4; //declarando qual dve ser o valor que deve estar na determinada posição
 //		
-//		int [] numero = new int[6];
+//		int [] numero = new int[6];  //alocando seis espaços para este array
 //		Scanner teclado = new Scanner (System.in);
 //		
 //		for (int aux2 = 0;aux2 < numero.length;aux2++) {
@@ -183,7 +183,7 @@ public class mainy {
 		int[][] arrayBidirecional = new int[4][3];
 		
 		arrayBidirecional[0][0]=8;
-		arrayBidirecional[2][1]=8;
+		arrayBidirecional[2][1]=8;  //um array composto de linhas e colunas
 		
 		for (int coluna = 0;coluna < arrayBidirecional[0].length; coluna++) {
 			for (int linha = 0; linha < arrayBidirecional[0].length; coluna++) {
