@@ -2,16 +2,16 @@ import java.util.Objects;
 
 public class Cliente {
 
-private String nome;
+private String nome;   //visualização privada,apenas classe que extederem dela podem ter acesso a seus metodos e atributos privados
 private int cpf;
 private int numConta;
 public Cliente() {
 	super();
 }
-public String getNome() {
+public String getNome() {   //get para acessar o valor,ou seja,visualizar o valor
 	return nome;
 }
-public void setNome(String nome) {
+public void setNome(String nome) {  //st permite fazer a alteção do valor
 	this.nome = nome;
 }
 public int getCpf() {
@@ -27,10 +27,10 @@ public void setNumConta(int numConta) {
 	this.numConta = numConta;
 }
 @Override
-public String toString() {
+public String toString() {   //toString passam para o poprtugues o que esta nos atributos 
 	return "Cliente [nome=" + nome + ", cpf=" + cpf + ", numConta=" + numConta + "]";
 }
-@Override
+@Override //o hash transfere esses atributos na forma de objetos
 public int hashCode() {
 	return Objects.hash(cpf, nome, numConta);
 }
