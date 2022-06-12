@@ -1,5 +1,5 @@
 
-public class ManipulçãoDeObjetos {
+public class ManipulÃ§Ã£oDeObjetos {
 
 	public static void main(String[] args) {
 		
@@ -30,19 +30,6 @@ public class ManipulçãoDeObjetos {
 		
 		System.out.println(pessoa2.nome);
 		System.out.println(pessoa2.numfigurinhas);
-		
-	
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
 		
 		
 	}
