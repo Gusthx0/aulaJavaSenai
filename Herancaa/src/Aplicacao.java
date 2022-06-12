@@ -4,8 +4,8 @@ public class Aplicacao {
 	public static void main(String[] args) {
 		
 			
-			Veiculo veiculo = new  Veiculo();
-			
+			Veiculo veiculo = new  Veiculo();  //intanciando objetos e acessando os getters ne stters para fazer a "validação'
+// digamos assim sobre como cada metodo se comporta em relação a objetos difrentes			
 			veiculo.setMarca("Honda");
 			veiculo.setModelo("City");
 			veiculo.setAno(2013);
