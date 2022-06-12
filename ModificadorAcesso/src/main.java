@@ -41,7 +41,7 @@ public class main {
 
 		Cliente cliente2 = new Cliente();
 
-		cliente2.setNome("rafa");
+		cliente2.setNome("rafa"); 	  //instanciando clientes (objetos do tipo) e embaixo no if e else estamos fazendo uma compara√ß√£o das contas
 		cliente2.setNumConta(222);
 		cliente2.setCpf(111 );
 
@@ -49,18 +49,18 @@ public class main {
 		//cliente1 = cliente2;
 
 		if (cliente1.getNome() == cliente2.getNome()) {
-			System.out.println("nome s„o iguais");
+			System.out.println("nome s√£o iguais");
 		} else {
 			System.out.println("nomes diferentes");
 		}
 		if (cliente1 == cliente2) {
-			System.out.println("objeto s„o iguais");
+			System.out.println("objeto s√£o iguais");
 		} else {
 			System.out.println("objetos diferentes");
 		}
 
 		if (cliente1.equals(cliente2)) {
-			System.out.println("objeto s„o iguais");
+			System.out.println("objeto s√£o iguais");
 		} else {
 			System.out.println("objetos diferentes");
 		}
