@@ -19,7 +19,7 @@ public class Aplicacao {
 //	Contador contador2 = new Contador();
 //	Contador contador3 = new Contador();
 //	
-//	contador1.incrementar(); //vai aparecer o mesmo valor em todos pois é estatico e é compartilhado por todos 
+//	contador1.incrementar(); //vai aparecer o mesmo valor em todos pois Ã© estatico e Ã© compartilhado por todos 
 //	
 //	System.out.println(contador1.getValor());
 //	System.out.println(contador2.getValor());
@@ -33,5 +33,5 @@ public class Aplicacao {
 	System.out.println(constante.media_da_prova);
 	
 	}
-	}
+	} 
 
